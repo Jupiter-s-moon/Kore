@@ -1,3 +1,4 @@
+import TailwindShowcase from "../../shared/components/TailwindShowcase";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
@@ -6,7 +7,7 @@ const HomePage = () => {
     <div>
       <Header />
       <Footer />
-      <h1>Hello for Matheo for gitttttt</h1>
+      <TailwindShowcase />
     </div>
   );
 };
