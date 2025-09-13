@@ -1,9 +1,12 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 const HomePage = () => {
   return (
     <div>
       <Header />
+      <Footer />
+      <h1>Hello</h1>
     </div>
   );
 };
