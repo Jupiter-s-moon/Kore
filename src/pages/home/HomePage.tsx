@@ -1,13 +1,13 @@
-import TailwindShowcase from "../../shared/components/TailwindShowcase";
+import Carrousel from "./components/carrusel/Carrousel";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="">
       <Header />
+      <Carrousel />
       <Footer />
-      <TailwindShowcase />
     </div>
   );
 };
